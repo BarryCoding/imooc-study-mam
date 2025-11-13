@@ -8,13 +8,15 @@ nv init --python 3.12
 nv venv
 ```
 
-## 1_DeepSeek_API
+## 1_1 DeepSeek Chat and Stream
 
 ```sh
 uv add requests python-dotenv
 ```
 
-## 3_OpenAI_SDK
+## 1_2 Kimi text and image
+
+## 1_3 OpenAI_SDK
 
 ```sh
 uv add openai
@@ -29,3 +31,11 @@ DEEPSEEK_BASE_URL=https://api.deepseek.com
 OPENAI_BASE_URL=${DEEPSEEK_BASE_URL}
 OPENAI_API_KEY=${DEEPSEEK_API_KEY}
 ```
+
+## 1_4 DeepSeek Calculate Tool
+
+example query:
+
+1. 请问你是？
+2. 123\*456 等于多数？
+3. 我刚刚提的问题是？
