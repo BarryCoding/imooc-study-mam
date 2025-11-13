@@ -39,3 +39,10 @@ example query:
 1. 请问你是？
 2. 123\*456 等于多数？
 3. 我刚刚提的问题是？
+
+## 1_5 Pydantic
+
+```sh
+# Mac zsh
+uv add 'pydantic[email]'
+```
