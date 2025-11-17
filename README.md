@@ -46,3 +46,5 @@ example query:
 # Mac zsh
 uv add 'pydantic[email]'
 ```
+
+## 1_6 Stream with tool
