@@ -48,3 +48,10 @@ uv add 'pydantic[email]'
 ```
 
 ## 1_6 Stream with tool
+
+## 2_1 Tokenizer
+
+```sh
+uv add transformers
+uv add jinja2
+```
