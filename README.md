@@ -55,3 +55,5 @@ uv add 'pydantic[email]'
 uv add transformers
 uv add jinja2
 ```
+
+## 2_2 Chat with CoT
