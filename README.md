@@ -69,12 +69,27 @@ uv add fastapi 'uvicorn[standard]'
 
 ```sh
 uv run uvicorn 2_4_1_FastAPI-demo:app --reload
-```
 
-```md
+# test API
 http://localhost:8000
-
 http://localhost:8000/apps/123?q=ping
-
 http://localhost:8000/apps/error?q=ping
+
+
+# test docs
+http://localhost:8000/docs
+http://localhost:8000/redoc
 ```
+
+```sh
+uv run uvicorn 2_4_2_FastAPI-docs:app --reload
+
+# test API
+http://localhost:8000/users
+http://localhost:8000/orders
+
+# test docs
+http://localhost:8000/docs
+http://localhost:8000/redoc
+```
+
