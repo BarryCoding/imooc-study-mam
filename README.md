@@ -59,3 +59,22 @@ uv add jinja2
 ## 2_2 Chat with CoT
 
 ## 2_3 sync and async
+
+## 2_4 FastAPI
+
+```sh
+# install
+uv add fastapi 'uvicorn[standard]'
+```
+
+```sh
+uv run uvicorn 2_4_1_FastAPI-demo:app --reload
+```
+
+```md
+http://localhost:8000
+
+http://localhost:8000/apps/123?q=ping
+
+http://localhost:8000/apps/error?q=ping
+```
