@@ -4,8 +4,8 @@
 
 ```sh
 cd study-code
-nv init --python 3.12
-nv venv
+uv init --python 3.12
+uv venv
 ```
 
 ## 1_1 DeepSeek Chat and Stream
@@ -93,3 +93,4 @@ http://localhost:8000/docs
 http://localhost:8000/redoc
 ```
 
+## 3_1 Amap MCP
