@@ -112,3 +112,5 @@ uv add "mcp[cli]" httpx
     ]
 }
 ```
+
+## 3_3 MCP client
