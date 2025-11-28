@@ -94,3 +94,21 @@ http://localhost:8000/redoc
 ```
 
 ## 3_1 Amap MCP
+
+## 3_2 MCP demo
+
+```sh
+uv add "mcp[cli]" httpx
+```
+
+```json
+"local-calculator": {
+    "command": "uv",
+    "args": [
+    "--directory",
+    "/Users/aiman/AI/Imooc_MCP_A2A/my-code/study-code",
+    "run",
+    "3_2_mcp-server.py"
+    ]
+}
+```
