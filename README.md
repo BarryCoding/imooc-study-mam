@@ -114,3 +114,17 @@ uv add "mcp[cli]" httpx
 ```
 
 ## 3_3 MCP client
+
+## 3_4 MCP Bash Server
+
+```json
+"local-bash": {
+    "command": "uv",
+    "args": [
+    "--directory",
+    "/Users/aiman/AI/Imooc_MCP_A2A/my-code/study-code",
+    "run",
+    "3_4_mcp-server-bash.py"
+    ]
+}
+```
