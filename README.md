@@ -128,3 +128,12 @@ uv add "mcp[cli]" httpx
     ]
 }
 ```
+
+## 3_5 MCP code runner
+
+```json
+"local-code-runner": {
+    "url": "http://localhost:9888/mcp",
+    "headers": {}
+}
+```
