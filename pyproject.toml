@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "browser-use>=0.11.0",
+    "browser-use-sdk>=2.0.12",
     "fastapi>=0.121.2",
     "httpx>=0.28.1",
     "jinja2>=3.1.6",

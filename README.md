@@ -137,3 +137,18 @@ uv add "mcp[cli]" httpx
     "headers": {}
 }
 ```
+
+## 4 Browser use
+
+- api key
+
+```sh
+# local
+uv add browser-use
+# remote cloud
+uv add browser-use-sdk
+```
+
+```sh
+uvx browser-use install
+```
